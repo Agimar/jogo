@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\myapp\\maycon\\MyApp.csproj": {}
+    "C:\\MyApp\\maycon\\MyApp.csproj": {}
   },
   "projects": {
-    "C:\\myapp\\maycon\\MyApp.csproj": {
+    "C:\\MyApp\\maycon\\MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\myapp\\maycon\\MyApp.csproj",
+        "projectUniqueName": "C:\\MyApp\\maycon\\MyApp.csproj",
         "projectName": "MyApp",
-        "projectPath": "C:\\myapp\\maycon\\MyApp.csproj",
+        "projectPath": "C:\\MyApp\\maycon\\MyApp.csproj",
         "packagesPath": "C:\\Users\\Agimar\\.nuget\\packages\\",
-        "outputPath": "C:\\myapp\\maycon\\obj\\",
+        "outputPath": "C:\\MyApp\\maycon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

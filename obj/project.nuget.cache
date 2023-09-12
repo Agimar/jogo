@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8dfS+nheiJbVx7CBZGfcG3vsg/ZLQ4javju4xCiZP887KBI51lFjbjro746diBwlUslSNxBAWGwsrirWqfMnWQ==",
+  "dgSpecHash": "U0C5DDmHv1iU+f6MqP2Nfs/dGqQUG4k7VqoyQkw2+r4NHF7WgHFRV0Oh7jfwkkSPqJQ3xgTvKtEGhhtGWSUWcw==",
   "success": true,
-  "projectFilePath": "C:\\myapp\\maycon\\MyApp.csproj",
+  "projectFilePath": "C:\\MyApp\\maycon\\MyApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

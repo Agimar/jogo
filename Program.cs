@@ -9,10 +9,14 @@ do{
 	Random numAleatorio = new Random();
 	sorteio = numAleatorio.Next(1, 101);
 
+	Console.WriteLine("========================================");
+	Console.WriteLine("\nO jogo baseia-se em adivinhar o número que o computador sorteou entre 1 a 100, ganha quem adivinhar o número com a menor vezes de tentativas\n");
+	Console.WriteLine("========================================");
+	
 	i = 0;
-	do{
+  do{
 
-		Console.Write("Digite um número: ");
+		Console.Write("\nDigite um número: ");
 		numDigitado = Convert.ToInt16(Console.ReadLine());
 
 		if (numDigitado > sorteio)
@@ -26,14 +30,14 @@ do{
 
 		i++;
 		Console.WriteLine("Qtide de tentativas: " + i);
-		Console.WriteLine("====================");
+		Console.WriteLine("\n====================");
 
 	} while (sorteio != numDigitado);
 
-	Console.WriteLine("Acertou o número sorteado: " +sorteio);
-	Console.WriteLine("Foram " +(i - 1)+ " tentativas");
+		Console.WriteLine("\nAcertou o número sorteado: " +sorteio);
+		Console.WriteLine("Foram " +(i - 1)+ " tentativas");
 
-	Console.WriteLine("====================");
-	Console.Write("Deseja continuar a brincadeira? s/n");
+		Console.WriteLine("\n====================");
+		Console.Write("\nDeseja continuar a jogar? s/n ");
 
 } while (Console.ReadLine() == "s");
